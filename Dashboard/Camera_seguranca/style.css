@@ -1,0 +1,11 @@
+.imagem {
+    display: flex;
+    justify-content: center;
+    
+}
+
+.buttons,
+.camera {
+    display: flex;
+    justify-content: center;
+}
