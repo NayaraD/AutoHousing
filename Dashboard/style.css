@@ -1,5 +1,9 @@
 body {
-    background-color: ;
+  background-image: url("./back_circle.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  margin-top: auto;
+  background-color: #748cab;
 }
 
 .nome_usuario,
@@ -7,10 +11,12 @@ body {
 .buttons_up2 {
     display: flex;
     justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #F0EBD8;
 }
 
 .buttons1 {
-    background-color: black;
+    background-color: none;
     margin-top: 50px;
     display: flex;
     flex-direction: column;
@@ -45,7 +51,7 @@ img {
 .button-57 {
   position: relative;
   overflow: hidden;
-  border: 1px solid #18181a;
+  border: 1px solid #ffffff;
   color: #18181a;
   display: inline-block;
   font-size: 15px;
@@ -58,6 +64,8 @@ img {
   user-select: none;
   -webkit-user-select: none;
   touch-action: manipulation;
+  height: 150px;
+  border-radius: 5%;
 }
 
 .button-57 span:first-child {
@@ -112,7 +120,7 @@ img {
   border-radius: 50px;
   box-shadow: transparent 0 0 0 3px,rgba(18, 18, 18, .1) 0 6px 20px;
   box-sizing: border-box;
-  color: #121212;
+  color: #1D2D44;
   cursor: pointer;
   display: inline-flex;
   flex: 1 1 auto;
@@ -137,5 +145,5 @@ img {
 }
 
 .button-35:hover {
-  box-shadow: #121212 0 0 0 3px, transparent 0 0 0 0;
+  box-shadow: #1D2D44 0 0 0 3px, transparent 0 0 0 0;
 }
