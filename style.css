@@ -8,7 +8,7 @@
 .buttons {
     display: flex;
     justify-content: center;  
-    gap: 25px;  
+    gap: 15px;  
 }
 
 .container {
@@ -19,7 +19,7 @@
 }
 
 body {
-    background-color: #03045e;
+    background-color: #1d2d44;
 }
 
 .button-81 {
@@ -27,7 +27,7 @@ body {
   border: 0 solid #e2e8f0;
   border-radius: 1.5rem;
   box-sizing: border-box;
-  color: #0d172a;
+  color: #748cab;
   cursor: pointer;
   display: inline-block;
   font-family: "Basier circle",-apple-system,system-ui,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
@@ -46,7 +46,7 @@ body {
 }
 
 .button-81:hover {
-  background-color: #0077b6;
+  background-color: #3e5c76;
   color: #fff;
 }
 
@@ -56,3 +56,11 @@ body {
     padding: 1rem 2rem;
   }
 }
+
+a:link,
+a:visited,
+a:active {
+  color: #748cab;
+  text-decoration: none;
+}
+
