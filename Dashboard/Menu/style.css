@@ -1,8 +1,67 @@
 .usuário,
-.lista,
-.sair {
+.lista {
     display: flex;
     justify-content: center;
     flex-direction: column;
-    
+    background-color: #F0EBD8;
+    width: 400px;
+    border: 8px solid #F0EBD8;
 }
+
+a:link,
+a:visited,
+a:active {
+  color: #748cab;
+  text-decoration: none;
+}
+
+.usuario,
+.perfil,
+.config,
+.parear,
+.priv,
+.termos,
+.sair {
+    display: flex;
+    flex-direction: row;
+    gap: 25px;
+}
+
+body {
+    background-color:#748CAB;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+button {
+    border: 3px solid #F0EBD8;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    background-color: #1D2D44;
+}
+
+.usuario,
+.home {
+    background-color: #F0EBD8;
+    border: 8px solid #F0EBD8;
+    width: 400px;
+}
+
+.home {
+    height: 130px;
+    display: flex;
+    justify-content: center;
+}
+
+.perfil {
+    margin-left: 25px;
+    gap: 150px;
+}
+
+.icon {
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    margin-top: 20px;
+}
+

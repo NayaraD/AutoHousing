@@ -45,7 +45,7 @@ temperatura {
   }
   
   input:checked + .slider {
-    background-color: #3af321;
+    background-color: #748CAB;
   }
   
   input:focus + .slider {
@@ -67,50 +67,87 @@ temperatura {
   }
 
 
-button {
-    border: 3px;
-    height: 50px;
-    width: 50px;
-    border-radius: 50%;
-}
-
-button,
-.eletro {
-    display: flex;
-    justify-content: center;
+body {
+  background-color: #3E5C76;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  color: #F0EBD8;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 50px;
 }
 
 .temp-selector{
     height:120px;
-    width:80px;
-    background-color:#000;
+    width:120px;
+    background-color:#1D2D44;
     position:relative;
+    border: 5px solid #1D2D44;
+    border-radius: 10px;
+    
   }
 
   .temp_button {
   width:100%;
   height:30px;
-  background-color:#000;
+  background-color:#1D2D44;
   border:none;
-  color:#fff;
-  font-size:20px;
+  color:#F0EBD8;
+  font-size:18px;
   cursor:pointer;
+  
+  
   }
   
   input{
   width:100%;
   height:60px;
-  background-color:#000;
+  background-color:#1D2D44;
   border:none;
-  color:#fff;
-  font-size:44px;
+  color:#F0EBD8;
+  font-size:40px;
   padding:0;
   text-align:center;
   }
   .degree{
-  color:#fff;
+  color:#F0EBD8;
   position:absolute;
   top:30px;
   right:10px;
   font-size:24px;
   }
+
+  button {
+    border: 3px solid #F0EBD8;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    background-color: #3E5C76;
+}
+
+.home,
+.eletro,
+.temperatura,
+.ar {
+  display: flex;
+  justify-content: center;
+}
+
+.temperatura {
+  gap: 200px;
+}
+
+.ar {
+  margin-left: 270px;
+  gap: 240px;
+}
+
+.temp {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.eletro {
+  font-size:larger ;
+}

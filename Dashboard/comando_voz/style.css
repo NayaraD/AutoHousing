@@ -1,3 +1,36 @@
+.voz {
+    display: flex;
+    justify-content: space-between;
+    width: 350px;
+    margin-left: 500px;
+    margin-bottom: 50px;
+}
+
+body {
+  background-color: #1D2D44;
+  color: #F0EBD8;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  gap: 50px;
+  display: flex;
+  flex-direction: column;
+}
+
+.comand,
+.conf,
+.home {
+  display: flex;
+  justify-content: center;
+}
+
+.container {
+  margin-left: 400px;
+  border: 10px solid #1D2D44;
+  background-color: #1D2D44;
+  width: 600px;
+  
+
+}
+
 .switch {
     position: relative;
     display: inline-block;
@@ -36,7 +69,7 @@
   }
   
   input:checked + .slider {
-    background-color: #3af321;
+    background-color: #748CAB;
   }
   
   input:focus + .slider {
@@ -56,3 +89,17 @@
   .slider.round:before {
     border-radius: 50%;
   }
+
+
+button {
+    border: 3px solid #F0EBD8;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    background-color: #1D2D44;
+}
+
+.luzes {
+  font-size: larger;
+}
+

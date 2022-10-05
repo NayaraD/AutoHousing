@@ -1,11 +1,41 @@
 .imagem {
     display: flex;
     justify-content: center;
-    
+    border: 7px solid #1D2D44;
+    width: 560px;
+    margin-left: 400px;
+    border-radius: 3px;
 }
 
 .buttons,
-.camera {
+.camera,
+.home {
     display: flex;
     justify-content: center;
 }
+
+a:link,
+a:visited,
+a:active {
+  color:#F0EBD8;
+  text-decoration: none;
+}
+
+button {
+    border: 3px solid #F0EBD8;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    background-color: #748CAB;
+    
+}
+
+body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: #748CAB;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    color: #F0EBD8;
+}
+

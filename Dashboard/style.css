@@ -6,6 +6,7 @@ body {
   background-color: #748cab;
 }
 
+
 .nome_usuario,
 .buttons_up1,
 .buttons_up2 {
@@ -13,21 +14,28 @@ body {
     justify-content: center;
     font-family: Arial, Helvetica, sans-serif;
     color: #F0EBD8;
+    font-size: larger;
 }
 
 .buttons1 {
     background-color: none;
-    margin-top: 50px;
+    margin-top: 100px;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     gap: 30px;
     height: 380px;
-    width: 400px;
+    width: 900px;
     justify-content: center;
     margin-left: 480px;
     border-radius: 5%;
+    margin-left: 250px;
+    
 }
 
+.buttons_up2 {
+  width: 500px;
+  margin-right: 800px;
+}
 .buttons_up1,
 .buttons_up2 {
     gap: 30px
@@ -41,11 +49,17 @@ img {
 .buttons_botton {
     display: flex;
     justify-content: center;
-    margin-top: 30px;
-    width: 210px;
-    height: 200px;
+    width: 200px;
+    height: 190px;
     margin-left: 585px;
     gap: 20px;
+}
+
+.icon {
+  display: flex;
+  justify-content: center;
+  margin-left: 15px;
+  margin-right: 15px;
 }
 
 .button-57 {
@@ -96,7 +110,7 @@ img {
   left: 0;
   width: 100%;
   height: 100%;
-  background-color: black;
+  background-color: #1D2D44;
   transform-origin: bottom center;
   transition: transform 600ms cubic-bezier(0.48, 0, 0.12, 1);
   transform: skewY(9.3deg) scaleY(0);
