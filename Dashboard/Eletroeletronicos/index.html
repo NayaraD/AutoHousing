@@ -6,36 +6,37 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Eletroeletrônicos</title>
     <link rel="stylesheet" href="style.css">
-    <script src="./js.js"></script>
+    
 </head>
 <body>
-    <div class="eletro">
-        <p>Eletroeletrônicos</p>
-    </div>    
-    <div class="ar">
-        <p>Ar condicionado</p>
-        <label class="switch">
-            <input type="checkbox">
-            <span class="slider round"></span>
-        </label>
-    </div>
+    <div class="caixa">
+        <div class="eletro">
+            <p>Eletroeletrônicos</p>
+        </div>    
+        <div class="ar">
+            <p>Ar condicionado</p>
+            <label class="switch">
+                <input type="checkbox">
+                <span class="slider round"></span>
+            </label>
+        </div>
+        
+        <div class="temperatura">
+            <div class="temp">
+                <p>Temperatura</p>
+            </div>
+            <div class="temp-selector">
+                <button class="temp_button" onclick="addTemp()">ᐱ</button>
+                <input tag="TempBox "name="TempBox" id="TempBox" value="20" type="number" readonly>
+                <span class="degree">°</span>
+                <button class="temp_button" onclick="remTemp()">ᐯ</button>
+            </div>
+        </div>
     
-    <div class="temperatura">
-        <div class="temp">
-            <p>Temperatura</p>
+        <div class="home">
+            <button><a href="../index.html"><img src="../home.png" alt="" width="50"></button>
         </div>
-        <div class="temp-selector">
-            <button class="temp_button" onclick="addTemp()">ᐱ</button>
-            <input id="TempBox" value="20" type="text">
-            <span class="degree">°</span>
-            <button class="temp_button" onclick="remTemp()">ᐯ</button>
-        </div>
+        <script src="./js.js"></script>
     </div>
-
-    <div class="home">
-        <button><a href="../index.html"><img src="../home.png" alt="" width="30"></button>
-    </div>
-
-     
 </body>
 </html>

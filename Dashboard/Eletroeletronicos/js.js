@@ -1,20 +1,20 @@
 const maxTemp=28,
-minTemp =15;
+minTemp = 15;
+var tempBox = document.getElementById("TempBox").value;
 
-let tempBox = document.getElementById("TempBox");
-let tempValue=  Number(tempBox.value);
+
 
 function addTemp() {  
-  if(maxTemp > tempValue){
-    tempValue += 1;
-    tempBox.value = tempValue;
+  if(maxTemp > tempBox){
+    tempBox += 1;
+    document.getElementById("TempBox").value = tempBox;
   }
 }
 
 function remTemp() {
-  if(minTemp < tempValue){
-    tempValue -= 1;
-    tempBox.value = tempValue;
+  if(minTemp < tempBox){
+    tempBox -= 1;
+    document.getElementById("TempBox").value = tempBox;
    }
    
 }
